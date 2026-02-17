@@ -1,0 +1,30 @@
+{
+  "schema": {
+    "id": "db_1771317611015",
+    "name": "キャラクター設定",
+    "fields": [
+      {
+        "id": "name",
+        "name": "タイトル",
+        "type": "text"
+      },
+      {
+        "id": "desc",
+        "name": "内容",
+        "type": "text"
+      }
+    ]
+  },
+  "records": [
+    {
+      "name": "主人公",
+      "desc": "ここに詳細を書くことが出来ます。",
+      "id": "d7ee278e-e54c-4deb-817c-b0b630f0fa5b"
+    },
+    {
+      "name": "ヒロイン",
+      "desc": "なにか書けるよ。",
+      "id": "a62e88b1-fbac-45db-9496-463e06eadd6c"
+    }
+  ]
+}
