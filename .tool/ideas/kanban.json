@@ -31,6 +31,14 @@
       "status": 2,
       "createdAt": 1771318165123,
       "updatedAt": 1771318178000
+    },
+    {
+      "id": "1771327837176",
+      "title": "画像を貼る事もできます。",
+      "description": "こんな感じ。\n![aware_wide.png](/.tool/images/aware_wide.png)",
+      "status": 0,
+      "createdAt": 1771327837176,
+      "updatedAt": 1771327864676
     }
   ]
 }
