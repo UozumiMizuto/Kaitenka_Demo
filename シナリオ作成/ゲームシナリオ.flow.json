@@ -1,0 +1,29 @@
+{
+  "blocks": [
+    {
+      "id": "kk0myy",
+      "type": "media",
+      "speaker": "",
+      "content": "",
+      "charId": "",
+      "expr": "",
+      "bg": "湖"
+    },
+    {
+      "id": "l4pped",
+      "type": "char",
+      "speaker": "",
+      "content": "",
+      "charId": "退場",
+      "expr": ""
+    },
+    {
+      "id": "7o2bks",
+      "type": "text",
+      "speaker": "ナレーション",
+      "content": "あああああ",
+      "charId": "",
+      "expr": ""
+    }
+  ]
+}
