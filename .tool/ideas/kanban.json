@@ -43,15 +43,6 @@
       "updatedAt": 1771318148538
     },
     {
-      "id": "1771318165123",
-      "title": "ボツにした後でも、検討中に戻したり出来ます。",
-      "description": "もちろん詳細を書くこともできます",
-      "laneId": "lane-done",
-      "order": 3,
-      "createdAt": 1771318165123,
-      "updatedAt": 1771318178000
-    },
-    {
       "id": "1771327837176",
       "title": "画像を貼る事もできます。",
       "description": "こんな感じ。\n![aware_wide.webp](/.tool/images/aware_wide.jpg)",
