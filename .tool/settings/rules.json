@@ -1,81 +1,29 @@
 {
-  "rules": [
-    {
-      "id": "no-indent-at-start",
-      "regexPattern": "^(?![#])[^　\\s\\n「『（【]",
-      "regexFlags": "gm",
-      "message": "行頭が字下げ（全角スペース）されていません。",
-      "severity": "warning",
-      "enabled": true
-    },
-    {
-      "id": "ellipsis-mistake",
-      "regexPattern": "(?<!…)…(……)*(?!…)",
-      "regexFlags": "g",
-      "message": "三点リーダは偶数個（……）で使います。",
-      "severity": "info",
-      "enabled": true
-    },
-    {
-      "id": "dash-mistake",
-      "regexPattern": "(?<!―)―(――)*(?!―)",
-      "regexFlags": "g",
-      "message": "ダッシュは偶数個（――）で使います。",
-      "severity": "info",
-      "enabled": true
-    },
-    {
-      "id": "bad-punctuation-in-bracket",
-      "regexPattern": "[。](?=」|』)",
-      "regexFlags": "g",
-      "message": "閉じカッコの直前に句点は不要です。",
-      "severity": "warning",
-      "enabled": true
-    },
-    {
-      "id": "missing-space-after-mark",
-      "regexPattern": "[！？](?![　\\s」』）】\\n])",
-      "regexFlags": "g",
-      "message": "「！」「？」の後は全角スペースを空けます。",
-      "severity": "info",
-      "enabled": true
-    },
-    {
-      "id": "half-width-kana",
-      "regexPattern": "[ｱ-ﾝﾞﾟ]",
-      "regexFlags": "g",
-      "message": "半角カナが使用されています。",
-      "severity": "warning",
-      "enabled": true
-    },
-    {
-      "id": "duplicate-punctuation",
-      "regexPattern": "[。、]{2,}",
-      "regexFlags": "g",
-      "message": "句読点（。、）が連続しています。",
-      "severity": "warning",
-      "enabled": true
-    },
-    {
-      "id": "external-chars",
-      "regexPattern": "[\\u2460-\\u24FF\\u2190-\\u21FF\\u2600-\\u26FF\\u2700-\\u27BF]",
-      "regexFlags": "g",
-      "message": "環境依存文字・特殊記号が含まれています。",
-      "severity": "info",
-      "enabled": true
-    },
-    {
-      "id": "half-width-alpha-num",
-      "regexPattern": "[a-zA-Z0-9]",
-      "regexFlags": "g",
-      "message": "半角英数字が使用されています（縦書き注意）。",
-      "severity": "info",
-      "enabled": false
-    }
-  ],
+  "rules": [],
   "jtfRulesEnabled": true,
   "sudachiSynonymsEnabled": true,
   "joyoKanjiEnabled": true,
   "okuriganaRule": "strict",
-  "ijikaidokunEnabled": true
+  "ijikaidokunEnabled": true,
+  "particleRepeatEnabled": true,
+  "raNukiEnabled": true,
+  "saIreEnabled": true,
+  "nijuuKeigoEnabled": true,
+  "nijuuHiteiEnabled": true,
+  "concordanceEnabled": true,
+  "tariEnabled": true,
+  "bekiEnabled": true,
+  "buntaiEnabled": true,
+  "wordRepeatEnabled": true,
+  "idiomEnabled": true,
+  "sentenceEndingEnabled": true,
+  "sentenceLengthEnabled": true,
+  "fragmentLengthEnabled": true,
+  "kanjiContinuousEnabled": true,
+  "parallelismEnabled": true,
+  "bracketCheckEnabled": true,
+  "eraCheckEnabled": true,
+  "envCharCheckEnabled": true,
+  "charsPerLine": 35,
+  "linesPerPage": 20
 }
